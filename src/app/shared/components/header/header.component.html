@@ -1,0 +1,56 @@
+<header class="header">
+  <nav>
+    <div class="mobile__nav__menu">
+      <a
+        [routerLink]="['/']"
+        [routerLinkActive]="'active'"
+        [routerLinkActiveOptions]="{exact: true}"
+        class="bloc-icon">
+        <img
+          src="../../../../assets/icons/menu_book.svg"
+          alt="">
+        <span>Рецепти</span>
+      </a>
+
+      <a
+        [routerLink]="['/favorite']"
+        [routerLinkActive]="'active'"
+        class="bloc-icon">
+        <img
+          src="../../../../assets/icons/favorite.svg"
+          alt="">
+        <span>Обране</span>
+      </a>
+
+      <a
+        [routerLink]="['/fridge']"
+        [routerLinkActive]="'active'"
+        class="bloc-icon">
+        <img
+          src="../../../../assets/icons/fridge.svg"
+          alt="">
+        <span>Холодильник</span>
+      </a>
+
+      <a
+        [routerLink]="['/shopping-list']"
+        [routerLinkActive]="'active'"
+        class="bloc-icon">
+        <img
+          src="../../../../assets/icons/checklist.svg"
+          alt="">
+        <span>Інгрідієнти</span>
+      </a>
+
+      <a
+        [routerLink]="['/profile']"
+        [routerLinkActive]="'active'"
+        class="bloc-icon">
+        <img
+          src="../../../../assets/icons/account.svg"
+          alt="">
+        <span>Профіль</span>
+      </a>
+    </div>
+  </nav>
+</header>
