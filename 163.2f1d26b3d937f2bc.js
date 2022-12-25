@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkrecipe_app=self.webpackChunkrecipe_app||[]).push([[163],{163:(l,p,o)=>{o.r(p),o.d(p,{ShoppingListModule:()=>s});var e=o(895),u=o(256);let s=(()=>{class n{}return n.\u0275fac=function(i){return new(i||n)},n.\u0275mod=u.oAB({type:n}),n.\u0275inj=u.cJS({imports:[e.ez]}),n})()}}]);
