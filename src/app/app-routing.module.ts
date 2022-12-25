@@ -9,12 +9,11 @@ const routes: Routes = [
     children: [
       {
         path: '',
-        component: MainComponent,
+        loadChildren: () => import('./pages/main/main.module').then(m => m.MainModule),
       },
       {
         path: 'profile',
-        component: ProfileComponent,
-        // loadChildren: () => import('./pages/profile/profile.module').then(m => m.ProfileModule),
+        loadChildren: () => import('./pages/profile/profile.module').then(m => m.ProfileModule),
       },
       {
         path: 'favorite',

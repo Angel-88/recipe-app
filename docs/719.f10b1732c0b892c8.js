@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkrecipe_app=self.webpackChunkrecipe_app||[]).push([[719],{719:(c,d,u)=>{u.r(d),u.d(d,{FridgeModule:()=>r});var o=u(895),n=u(256);let r=(()=>{class e{}return e.\u0275fac=function(a){return new(a||e)},e.\u0275mod=n.oAB({type:e}),e.\u0275inj=n.cJS({imports:[o.ez]}),e})()}}]);
